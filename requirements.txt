@@ -4,3 +4,4 @@ biopython==1.85
 bokeh_plot==0.1.22
 numpy==1.21.5
 streamlit==1.47.0
+bokeh==3.7.3
