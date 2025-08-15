@@ -5,6 +5,7 @@ channels:
   - defaults
 dependencies:
   - plannotate=1.2.4
+  - pip
   - pip:
       - streamlit==1.48.1
       - tenacity==9.1.2
