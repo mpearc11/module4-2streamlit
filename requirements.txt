@@ -1,4 +1,0 @@
-Bio==1.8.0
-biopython==1.85
-bokeh==3.7.3
-streamlit==1.47.0
