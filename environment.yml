@@ -1,5 +1,4 @@
 name: plannotate
-conda config --set channel_priority flexible
 channels:
   - conda-forge
   - bioconda
