@@ -1,4 +1,5 @@
 name: plannotate
+channel_priority: strict
 channels:
   - conda-forge
   - bioconda
