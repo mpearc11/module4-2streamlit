@@ -5,6 +5,7 @@ channels:
   - defaults
 dependencies:
   - plannotate=1.2.4
+  - Bio=1.8.0
   - pip
   - pip:
       - streamlit==1.48.1
@@ -12,5 +13,3 @@ dependencies:
       - Bio==1.8.0
       - biopython==1.85
       - bokeh==3.7.3
-
-prefix: /home/zippy/miniconda3/envs/plannotate
