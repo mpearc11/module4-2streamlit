@@ -14,7 +14,7 @@ from io import StringIO
 import subprocess
 import sys
 
-subprocess.run([f"{sys.executable}", "annotate.py"])
+subprocess.run([f"{sys.executable}", "plannotate/annotate.py"])
 
 aligner = Align.PairwiseAligner()
 aligner.mode = 'local'
