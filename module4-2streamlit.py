@@ -6,9 +6,9 @@ from Bio import SeqIO
 from Bio import Align
 from io import StringIO
 
-from plannotate import __version__ as plannotate_version
+#from plannotate import __version__ as plannotate_version
 
-from annotate import annotate
+from plannotate.annotate import annotate
 from plannotate.bokeh_plot import get_bokeh
 from plannotate.resources import get_seq_record
 from bokeh.io import show
