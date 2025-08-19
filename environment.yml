@@ -1,6 +1,7 @@
 name: plannotate
 channels:
   - bioconda
+  - default
 dependencies:
   - click
   - curl
