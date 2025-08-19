@@ -6,6 +6,10 @@ from Bio import SeqIO
 from Bio import Align
 from io import StringIO
 
+from . import resources as rsc
+from .annotate import annotate
+from .bokeh_plot import get_bokeh
+
 from plannotate.annotate import annotate
 from plannotate.bokeh_plot import get_bokeh
 from plannotate.resources import get_seq_record
