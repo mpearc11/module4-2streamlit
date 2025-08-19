@@ -1,3 +1,9 @@
+#trying to make subprocesses work
+import subprocess
+import sys
+
+subprocess.run([f"{sys.executable}", "plannotate/annotate.py"])
+
 #below is sufficient for running locally
 from plannotate.annotate import annotate
 from plannotate.bokeh_plot import get_bokeh
@@ -8,13 +14,6 @@ from Bio.Seq import Seq
 from Bio import SeqIO
 from Bio import Align
 from io import StringIO
-
-#make subprocesses work
-
-import subprocess
-import sys
-
-subprocess.run([f"{sys.executable}", "plannotate/annotate.py"])
 
 aligner = Align.PairwiseAligner()
 aligner.mode = 'local'
