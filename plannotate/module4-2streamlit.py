@@ -1,31 +1,16 @@
-import base64
-import glob
-import io
-import os
-import sys
-
-import numpy as np
-import streamlit as st
-from Bio import SeqIO
-from Bio.Seq import Seq
-from Bio.SeqRecord import SeqRecord
-
-from plannotate import __version__ as plannotate_version
-
-from . import resources as rsc
-from .annotate import annotate
-from .bokeh_plot import get_bokeh
 
 #below is sufficient for running locally
-from plannotate.annotate import annotate
-from plannotate.bokeh_plot import get_bokeh
-from plannotate.resources import get_seq_record
-from bokeh.io import show
 import streamlit as st
 from Bio.Seq import Seq
 from Bio import SeqIO
 from Bio import Align
 from io import StringIO
+
+from plannotate.annotate import annotate
+from plannotate.bokeh_plot import get_bokeh
+from plannotate.resources import get_seq_record
+from bokeh.io import show
+
 
 aligner = Align.PairwiseAligner()
 aligner.mode = 'local'
