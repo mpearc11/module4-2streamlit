@@ -8,7 +8,7 @@ dependencies:
   - Bio=1.8.0
   - pip
   - pip:
-      - streamlit==1.48.1
+      - streamlit==1.8.1
       - tenacity==9.1.2
       - Bio==1.8.0
       - biopython==1.85
