@@ -6,6 +6,7 @@ dependencies:
   - click
   - curl
   - numpy
+  - Bio
   - biopython>=1.78
   - blast>=2.10.1
   - diamond>=2.0.13
