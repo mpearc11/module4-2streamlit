@@ -1,6 +1,7 @@
 name: plannotate
 channels:
   - bioconda
+  - conda-forge
 dependencies:
   - click
   - curl
