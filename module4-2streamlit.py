@@ -2,7 +2,7 @@
 import subprocess
 import sys
 
-subprocess.run([f"{sys.executable}", "plannotate/annotate.py"])
+subprocess.run([f"{sys.executable}", "annotate.py"])
 
 #below is sufficient for running locally
 from plannotate.annotate import annotate
