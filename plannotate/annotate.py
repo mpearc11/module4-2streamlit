@@ -54,7 +54,7 @@ def BLAST(seq, db):
 
     elif task == "infernal":
         flags = "--cut_ga --rfam --noali --nohmmonly --fmt 2"
-        cmd = (f"cmscan {flags} {parameters} --tblout {tmp.name} --clanin {db_loc} {query.name)
+        cmd = f"cmscan {flags} {parameters} --tblout {tmp.name} --clanin {db_loc} {query.name}"
         _ = subprocess.run(
             shlex.split(cmd),
             shell=False,
