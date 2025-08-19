@@ -4,7 +4,7 @@ import sys
 
 subprocess.run([f"{sys.executable}", "annotate.py"])
 
-from plannotate import __version__ as plannotate_version
+#from plannotate import __version__ as plannotate_version
 
 from . import resources as rsc
 from .annotate import annotate
