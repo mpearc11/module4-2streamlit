@@ -9,6 +9,13 @@ from Bio import SeqIO
 from Bio import Align
 from io import StringIO
 
+#make subprocesses work
+
+import subprocess
+import sys
+
+subprocess.run([f"{sys.executable}", "annotate.py"])
+
 aligner = Align.PairwiseAligner()
 aligner.mode = 'local'
 
