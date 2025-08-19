@@ -6,8 +6,8 @@ subprocess.run([f"{sys.executable}", "annotate.py"])
 
 #below is sufficient for running locally
 #from plannotate.annotate import annotate
-from plannotate.bokeh_plot import get_bokeh
-from plannotate.resources import get_seq_record
+#from plannotate.bokeh_plot import get_bokeh
+#from plannotate.resources import get_seq_record
 from bokeh.io import show
 import streamlit as st
 from Bio.Seq import Seq
