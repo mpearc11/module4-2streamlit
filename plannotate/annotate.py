@@ -9,8 +9,8 @@ from Bio import SeqIO
 from Bio.Seq import Seq
 from Bio.SeqRecord import SeqRecord
 
-import resources as rsc
-from infernal import parse_infernal
+from . import resources as rsc
+from .infernal import parse_infernal
 
 log = NamedTemporaryFile()
 
