@@ -4,3 +4,4 @@ channels:
   - bioconda
 dependencies:
   - biopython>=1.78
+  - pyyaml
